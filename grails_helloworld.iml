@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module relativePaths="true" type="GRAILS_MODULE" version="4">
+<module relativePaths="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
-    <facet type="Grails" name="Grails">
-      <configuration />
-    </facet>
     <facet type="web" name="GrailsWeb">
       <configuration>
         <webroots>
@@ -53,5 +50,7 @@
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="groovy-2.3.0" level="application" />
   </component>
 </module>
+
