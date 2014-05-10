@@ -1,0 +1,9 @@
+language: groovy
+script: "./grailsw refresh-dependencies"
+deploy:
+  provider: heroku
+  api_key:
+    secure: gw0qI2ooQFTWwxMvHYavzQEHmmRFlO8iftCFa/MMnLkm9inruRE9N/Sh+unsjuXCN+bzL0uDrtko8M6DSy5k5bE2LPOq3AoZZYQNcOXHaoLD7fX1ALo53weX+wn48gZOSxucTpOXTeO1IJ/+D6WtMKCY8f/juEveWNnbmgpjULc=
+  app: grailshelloworld
+  on:
+    repo: kyokomi/Grails_helloworld
